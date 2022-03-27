@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="./app.js"></script>
+    <script
+      src="https://kit.fontawesome.com/c046d5c77d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div
+      class="advice__container flex items-center justify-center h-screen bg-gray-700"
+    >
+      <div class="advice__wrapper">
+        <div
+          class="p-12 max-w-md advice__container bg-gray-800 text-white text-center rounded-lg relative"
+        >
+          <h2 class="advice__title uppercase mb-4 text-cyan-600 font-bold">
+            advice quote
+          </h2>
+          <p class="advice">
+            "It is really easy to give advice someone else rather than following
+            it"
+          </p>
+          <div class="bar flex items-center justify-center gap-1 mt-8">
+            <div class="w-1 h-4 bg-white"></div>
+            <div class="w-1 h-4 bg-white"></div>
+          </div>
+          <div
+            class="btn__container absolute top-2 left-2 transition-colors bg-cyan-500 hover:bg-cyan-700 w-8 h-8 rounded-lg flex items-center justify-center"
+          >
+            <button class="text-white font-extrabold advice__btn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-arrow-clockwise transition-all"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2v1z"
+                />
+                <path
+                  d="M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
